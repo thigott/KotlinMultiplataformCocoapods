@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
     spec.homepage                 = 'https://github.com/thigott/KotlinMultiplataformCocoapods'
     spec.source                   = { :git => 'https://github.com/thigott/KotlinMultiplataformCocoapods', :tag => spec.version }
     spec.authors                  = { 'Thiago Alves' => 'thiagoalves@ioasys.com.br' }
-    spec.license                  = 'MIT'
+    spec.license                  = { :type => "MIT", :file => "LICENSE" }
     spec.summary                  = 'Kotlin Multiplataform Library Shared module'
     spec.vendored_frameworks      = 'shared.xcframework'
     spec.libraries                = 'c++'
