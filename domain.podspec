@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'domain'
-    spec.version                  = '3.0.2'
+    spec.version                  = '3.0.5'
     spec.homepage                 = 'https://github.com/thigott/KotlinMultiplataformCocoapods'
     spec.source                   = { :git => 'https://github.com/thigott/KotlinMultiplataformCocoapods.git', :tag => spec.version }
     spec.authors                  = { 'Thiago Alves' => 'thiagoalves@ioasys.com.br' }
