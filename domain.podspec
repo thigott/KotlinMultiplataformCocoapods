@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
     spec.authors                  = { 'Thiago Alves' => 'thiagoalves@ioasys.com.br' }
     spec.license                  = { :type => "MIT", :file => "LICENSE" }
     spec.summary                  = 'Kotlin Multiplataform Library Domain module'
-    spec.vendored_frameworks      = 'domain.xcframework'
+    spec.vendored_frameworks      = 'domain.framework'
     spec.libraries                = 'c++'
     spec.ios.deployment_target = '14.1'
 end
